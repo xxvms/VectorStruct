@@ -3,6 +3,8 @@
 
 #include "stdafx.h"
 #include <iostream>
+#include <conio.h>
+
 
 struct vector
 {
@@ -55,10 +57,58 @@ int main()
 	}
 
 */
-	int i = 100;
+	/*int i = 100;
 	while (i < 111)
 	{
 		std::cout << i++ << " ";
+	}*/
+	/*int i = 100;
+	do
+	{
+		std::cout << i++ << " ";
+	} while (i < 111);*/
+
+	/*int age = 22;
+	if (age > 21)
+	{
+		std::cout << "YEEESSSS";
+	}
+	else
+	{
+		std::cout << "Noooooo";
+	}*/
+
+	/*int c = 0;
+	c = getche();*/
+
+
+	/*char input = 'a';
+	std::cin >> input;
+	switch (input)
+	{
+		case 'y':
+			std::cout << "Yeeees";
+			break;
+		case 'n':
+			std::cout << "NOOOOOOooo";
+			break;
+		default:
+			std::cout << " WTF?!";
+			break;
+	}*/
+	int ticket = 0;
+	int speed = 0;
+	std::cin >> speed;
+
+	if (speed > 55)
+	{
+		ticket = 1;
+		std::cout << ticket << std::endl;
+	}
+	else 
+	{
+		ticket = 0;
+		std::cout << ticket << std::endl;
 	}
 
 	system("pause");
