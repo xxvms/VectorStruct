@@ -96,7 +96,7 @@ int main()
 			std::cout << " WTF?!";
 			break;
 	}*/
-	int ticket = 0;
+	/*int ticket = 0;
 	int speed = 0;
 	std::cin >> speed;
 
@@ -109,7 +109,30 @@ int main()
 	{
 		ticket = 0;
 		std::cout << ticket << std::endl;
+	}*/
+//
+//	int one{ 1 }, two{ 2 };
+//
+//if (one < two && two < one +2)
+//{
+//	std::cout << "&&" << std::endl;
+//}
+//	int three;
+//	three = one + two;
+//	std::cout << three << std::endl;
+
+	bool isTrue{ 0 };
+	bool isTrue2{ 0 };
+	//std::cout << isTrue << std::endl;
+	if (isTrue == isTrue2)
+	{
+		std::cout << "true" << std::endl;
+		bool isTrue3;
+		isTrue3 = isTrue + isTrue2;
+		std::cout << isTrue3 << std::endl;
 	}
+	else (std::cout << "False") << std::endl;
+
 
 	system("pause");
     return 0;
