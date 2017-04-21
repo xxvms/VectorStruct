@@ -13,7 +13,7 @@ struct vector
 int main()
 {
 
-	vector vector1;
+	/*vector vector1;
 	vector vector2;
 	vector vector3;
 	vector1 = { 1, 2, 3 };
@@ -36,8 +36,30 @@ int main()
 	std::cout << "Vector 3y: " << vector3.y << std::endl;
 	std::cout << "Vector 3z: " << vector3.z << std::endl;
 	std::cout << std::endl;
+*/
+	/*int george = 1;
+	int sally = 2;
 
+	if (bool(george != sally))
+	{
+		std::cout << "TRUE";
+	}
+	else
+	{
+		std::cout << "False";
+	}
 
+	for (int i; i < 10; i++)
+	{
+		std::cout << "ttteeest"; 
+	}
+
+*/
+	int i = 100;
+	while (i < 111)
+	{
+		std::cout << i++ << " ";
+	}
 
 	system("pause");
     return 0;
